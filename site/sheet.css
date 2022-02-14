@@ -1,0 +1,19 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+body {
+	color: #af1aee;
+	text-align: center;
+	font-family: Helvetica;
+	font-size: 24px;
+	font-weight: bold;
+	overflow: auto;
+}
+
+#bg {
+	width: 600px;
+	height: 600px;
+	background: url("https://pbs.twimg.com/profile_images/1465371967457005576/UI2uyewq_400x400.jpg") no-repeat center mediumpurple;
+}
