@@ -1,0 +1,150 @@
+body {
+  background-color: #603049;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 16px;
+}
+
+/** HEADER **/
+#header-nav {
+  background-color: #f6b319;
+  border-radius: 0;
+  border: 0;
+}
+
+.navbar-brand {
+  padding-top: 25px;
+  margin-bottom: 25px;
+}
+
+.navbar-brand h1 { /* Restaurant name */
+  font-family: 'Helvetica', sans-serif;
+  color: #603049;
+  font-size: 1.5em;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #111;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  color: #951C49;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 2px solid #61122f;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+
+/* HOME PAGE */
+#menu {
+  color: #fff;
+}
+
+#menu section {
+  background-color: #a2a2a2;
+  margin: 15px auto 15px;
+  height: 1000px;
+}
+
+#menu section div {
+  margin-bottom: 15px;
+  font-size: 1.2em
+}
+
+#item1 {
+  background-color: #D62828;
+}
+
+#title1 {
+  background-color: #D62828;
+  color: white;
+}
+
+#title2 {
+  background-color: #F77F00;
+  color: black;
+}
+
+#title3 {
+  background-color: #FCBF49;
+  color: purple;
+}
+
+/* END HOME PAGE */
+
+/********** Desktop **********/
+@media (min-width: 992px) {
+  /* Header */
+  #nav-list a {
+    display: none;
+  }
+  /* End Header */
+
+  /* Home Page */
+  
+  /* End Home Page */
+}
+
+/********** Tablet **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  /* Header */
+  #nav-list a {
+    display: none;
+  }
+  /* End Header */
+
+  /* Home Page */
+  
+  /* End Home Page */
+
+}
+
+/********** Mobile **********/
+@media (max-width: 767px) {
+  /* Header */
+  .navbar-brand {
+    padding-top: 10px;
+    height: 80px;
+  }
+  .navbar-brand h1 { /* Restaurant name */
+    padding-top: 10px;
+    font-size: 5vw; /* 1vw = 1% of viewport width */
+  }
+
+  .navbar-header button.navbar-toggle {
+    clear: both;
+    margin-top: -30px;
+  }
+
+  #collapsable-nav a { /* Collapsed nav menu text */
+    font-size: 1.2em;
+  }
+  #collapsable-nav a span { /* Collapsed nav menu glyph */
+    font-size: 1em;
+    margin-right: 5px;
+  }
+
+  /* End Header */
+
+  /* Home Page */
+  
+  /* End Home Page */
+}
